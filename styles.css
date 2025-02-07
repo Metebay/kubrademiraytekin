@@ -155,9 +155,9 @@ h2::after {
     transform: translateY(-3px);
 }
 
-.html { background: var(--accent-color); width: 100%; }
-.python { background: var(--secondary-color); width: 100%; }
-.design { background: #6C757D; width: 100%; }
+.html { background: var(--accent-color); width: 95%; }
+.python { background: var(--secondary-color); width: 95%; }
+.design { background: #6C757D; width: 95%; }
 
 .project-grid {
     display: grid;
