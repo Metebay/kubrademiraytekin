@@ -452,7 +452,7 @@ footer .logo {
     }
 
     .sticky-header a {
-        width: 100%;
+        width: 50%;
         justify-content: center;
     }
 }
