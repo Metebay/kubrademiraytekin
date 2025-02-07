@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Galerisi</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="title-group">
+                <h1>Fotoğraf Galerisi</h1>
+                <p></p>
+            </div>
+            <a href="index.html">Ana Sayfa</a>
+        </div>
+    </header>
+
+    <!-- Main Gallery Grid -->
+    <main class="gallery-container">
+        <div class="grid-container">
+            <!-- Gallery Items -->
+            <div class="gallery-item landscape">
+                <img src="images/1.jpeg" alt="Doğa 1">
+                <div class="overlay">
+                    <h3>Dağ Manzarası</h3>
+                    <p>Alpler'den muhteşem bir görüntü</p>
+                </div>
+            </div>
+
+            <div class="gallery-item portrait">
+                <img src="images/2.jpeg" alt="Portre 1">
+                <div class="overlay">
+                    <h3>Şehir Yaşamı</h3>
+                    <p>New York'tan bir kesit</p>
+                </div>
+            </div>
+
+            <div class="gallery-item landscape">
+                <img src="images/3.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item landscape">
+                <img src="images/4.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+
+            <div class="gallery-item landscape">
+                <img src="images/5.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+
+            <div class="gallery-item landscape">
+                <img src="images/6.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+
+            <div class="gallery-item landscape">
+                <img src="images/7.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+
+            <div class="gallery-item landscape">
+                <img src="images/8.jpeg" alt="Doğa 2">
+                <div class="overlay">
+                    <h3>Orman Yolu</h3>
+                    <p>Sonbahar renkleri arasında bir yol</p>
+                </div>
+            </div>
+
+            
+            <!-- Diğer resimler için aynı yapıyı kopyalayabilirsiniz -->
+            <!-- Toplam 9 örnek eklenmiş -->
+        </div>
+    </main>
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <div class="lightbox-content">
+        <img class="lightbox-image" src="" alt="">
+        <div class="caption">
+            <h3 class="caption-title"></h3>
+            <p class="caption-text"></p>
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+    <!-- Footer -->
+    <section id="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Benimle iletişime geçmek için:</p>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:dkubra234@gmail.com">dkubra234@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+905439016722">+90 543 901 6722</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Uzm.Psk.Dan.Kübra Demir Aytekin. Tüm hakları saklıdır.</p>
+            <p>Bayındır Medya&trade;. Design By Mete</p>
+            <a href="https://bayindirmedya.online" target="_blank" class="logo-link">
+                <img src="logo.png" alt="Bayındır Medya Logo" class="logo">
+        </div>
+    </footer>
+    <script src="gallery.js"></script>
+</body>
+</html>
