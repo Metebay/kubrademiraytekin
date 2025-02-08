@@ -12,6 +12,73 @@ body {
     margin: 0;
     color: var(--primary-color);
 }
+/* Banner Bölümü */
+#banner {
+    position: relative;
+    height: 60vh; /* İhtiyacınıza göre yüksekliği ayarlayabilirsiniz */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Banner Resmi */
+  .banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmin container'a sığması için */
+    z-index: 1;
+  }
+  
+  /* Yarı Saydam Overlay */
+  #banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Resmin üzerine koyulacak karartma katmanı */
+    z-index: 2;
+  }
+  
+  /* Banner İçeriği */
+  .banner-content {
+    position: relative;
+    z-index: 3;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .banner-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .banner-content .btn {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-content .btn:hover {
+    background-color: #e04e4e;
+  }
+  
 
 .container {
     max-width: 1200px;
