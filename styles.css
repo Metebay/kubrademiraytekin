@@ -354,7 +354,7 @@ h2::after {
 
         /* Footer */
         footer {
-            background: var(--dark);
+            background: #1E1E2F;
             color: white;
             padding: 2rem 5%;
             text-align: center;
